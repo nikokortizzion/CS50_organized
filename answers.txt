@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: Time of sorting in best case less then in other
+
+sort2 uses: Merge sort
+
+How do you know?: Time of sorting in all cases nearly the same
+
+sort3 uses: Selection sort
+
+How do you know?: Time of sorting in all cases nearly the same but longer then sort2
