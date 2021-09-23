@@ -1,4 +1,6 @@
-SELECT AVG(rating)
-FROM ratings
-JOIN movies ON ratings.movie_id = movies.id
-WHERE year = 2012;
+SELECT title, rating
+FROM movies
+JOIN ratings ON movies.id = ratings.movie_id
+WHERE year = 2010
+AND NOT rating IS NULL
+ORDER BY rating DESC, title ASC;
